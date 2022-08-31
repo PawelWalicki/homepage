@@ -1,0 +1,63 @@
+/* komentarz box sizing bardzo ważne i zawsze go dodajemy do strony którą tworzymy i normalize też*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body { 
+    background-color: rgb(214, 214, 214);
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+.container{
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    
+}
+/* .image{
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    margin-top: 35px;
+    box-shadow: 5px 5px 18px 3px #515151;
+} */
+
+.title {
+    margin: 0 auto;
+    font-size: 40px;
+
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.caption {
+    color: rgb(188, 4, 31);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tableCell {
+    border: 1px solid rgb(188, 4, 31);
+    padding: 10px;
+    text-align: center;
+}
+
+.containerTable {
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listItem {
+    margin: 10px;
+}
+

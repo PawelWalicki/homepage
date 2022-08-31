@@ -1,0 +1,123 @@
+<!-- tak się dodaje komentarze -->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona o mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <header>
+            <h1 class="title"> Paweł Walicki</h1>
+            <img class="image" width="180" height="200" src="https://i.ibb.co/0VyKpz5/prof.jpg" alt="Pawel Walicki">
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__listItem"><a class="navigation__listItem--link" href="#dane-kontaktowe"> Dane
+                        Kontaktowe</a></li>
+                <li class="navigation__listItem"><a class="navigation__listItem--link"
+                        href="#wyksztalcenie">Wykształcenie</a></li>
+                <li class="navigation__listItem"><a class="navigation__listItem--link"
+                        href="#doswiadczenie">Doświadczenie</a></li>
+                <li class="navigation__listItem"><a class="navigation__listItem--link"
+                        href="#zainteresowania">Zainteresowania</a></li>
+                <li class="navigation__listItem"><a class="navigation__listItem--link" href="#o-mnie">O mnie</a></li>
+                <li class="navigation__listItem"><a class="navigation__listItem--link" href="#moje-wymarzone-auta">Moje
+                        wymarzone auta</a></li>
+            </ul>
+
+        </nav>
+        <p>
+            <button class="button">inny nagłówek</button>
+        </p>
+        <main>
+            <section>
+                <article class="article" id="dane-kontaktowe">
+                    <h2 class="article__header">Dane kontaktowe</h2>
+                    <p>E-mail: costam@interia.pl <br>
+                        numer telefonu: +4899999999</p>
+                </article>
+                <article class="article" id="wyksztalcenie">
+                    <b class="article__header">Wykształcenie</b>
+                    <p><b> 2008 - 2011</b> Katolicki Uniwersytet Lubelski im. Jana Pawła II kierunek
+                        administracja, licencjat, niestacjonarne <br>
+                        <b>2005 - 2008</b> II Liceum Ogólnokształcące im. Piotra Firleja w Lubartowie
+                    </p>
+                </article>
+                <article class="article" id="doswiadczenie">
+                    <b class="article__header">Doświadczenie</b>
+                    <p> <b>2017 - obecnie</b> Instruktor nauki jazdy kat. B w OSK Auto-Holik Lublin<br>
+                        <b>2011 - 2017</b> Operator linii produkcyjnej w Fabryka Kabli Elpar Spółka z o.o.<br>
+                        <b>2008 - 2011</b> Kierowca samochodu dostawczego na terenie całej Polski w Usługi
+                        Transportowe Kazimierz Walicki
+                    </p>
+                </article>
+                <article class="article" id="zainteresowania">
+                    <b class="article__header">Zainteresowania</b>
+                    <p>motoryzacja, podróże, muzyka</p>
+                </article>
+
+                <article class="article" id="o-mnie">
+                    <b class="article__header">O mnie</b>
+                    <p>
+                        Dużą część mojego życia zajmuje motoryzacja, uwielbiam dźwięk sliników spalinowych, jak i
+                        porwadzenie pojazdów 4 lub 2 kołowych, do tego bardzo lubię podróżować, bo to pozwala mi
+                        zapomnieć o
+                        wszystkich problemach. Człowiek skupia się tylko na drodzę i widokach, do tego można sobie
+                        włączyć
+                        ulubioną muzyke i zatracić się w tym wszystkim podążając do celu i oglądając nowe widoki,
+                        wsłuchując
+                        się w muzykę i dźwięk silnika.
+                    </p>
+                </article>
+            </section>
+
+            <aside id="moje-wymarzone-auta">
+                <div class="containerTable">
+                    <table class="table">
+                        <caption class="caption">Moje wymarzone auta</caption>
+                        <tr>
+                            <th class="tableCell" scope="col">Marka</th>
+                            <th class="tableCell" scope="col">Model</th>
+                            <th class="tableCell" scope="col">Rok produkcji</th>
+                        </tr>
+                        <tr>
+                            <th class="tableCell" scope="row" rowspan="2">Mazda</th>
+                            <td class="tableCell">RX-7</td>
+                            <td class="tableCell">1999</td>
+                        </tr>
+                        <tr>
+
+                            <td class="tableCell">MX-5</td>
+                            <td class="tableCell">2020</td>
+                        </tr>
+                        <tr>
+                            <th class="tableCell" scope="row">Honda</th>
+                            <td class="tableCell">NSX</td>
+                            <td class="tableCell">1992</td>
+                        </tr>
+                        <tr>
+                            <th class="tableCell" scope="row">Lexus</th>
+                            <td class="tableCell">LC500</td>
+                            <td class="tableCell">2020</td>
+                        </tr>
+                    </table>
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
+
+</html>
