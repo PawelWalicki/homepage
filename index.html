@@ -1,4 +1,3 @@
-<!-- tak się dodaje komentarze -->
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -13,6 +12,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/article.css" rel="stylesheet">
     <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -20,27 +20,28 @@
 <body class="body">
     <div class="container">
         <header>
-            <h1 class="title"> Paweł Walicki</h1>
-            <img class="image" width="180" height="200" src="https://i.ibb.co/0VyKpz5/prof.jpg" alt="Pawel Walicki">
+            <h1 class="container__title"> Paweł Walicki</h1>
+            <img class="container__image" width="180" height="200" src="https://i.ibb.co/0VyKpz5/prof.jpg"
+                alt="Pawel Walicki">
         </header>
         <nav class="navigation">
             <ul class="navigation__list">
-                <li class="navigation__listItem"><a class="navigation__listItem--link" href="#dane-kontaktowe"> Dane
+                <li class="navigation__anchor"><a class="navigation__link" href="#dane-kontaktowe"> Dane
                         Kontaktowe</a></li>
-                <li class="navigation__listItem"><a class="navigation__listItem--link"
+                <li class="navigation__anchor"><a class="navigation__link"
                         href="#wyksztalcenie">Wykształcenie</a></li>
-                <li class="navigation__listItem"><a class="navigation__listItem--link"
+                <li class="navigation__anchor"><a class="navigation__link"
                         href="#doswiadczenie">Doświadczenie</a></li>
-                <li class="navigation__listItem"><a class="navigation__listItem--link"
+                <li class="navigation__anchor"><a class="navigation__link"
                         href="#zainteresowania">Zainteresowania</a></li>
-                <li class="navigation__listItem"><a class="navigation__listItem--link" href="#o-mnie">O mnie</a></li>
-                <li class="navigation__listItem"><a class="navigation__listItem--link" href="#moje-wymarzone-auta">Moje
+                <li class="navigation__anchor"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+                <li class="navigation__anchor"><a class="navigation__link" href="#moje-wymarzone-auta">Moje
                         wymarzone auta</a></li>
             </ul>
 
         </nav>
         <p>
-            <button class="button">inny nagłówek</button>
+            <button class="containter__button">Inny nagłówek</button>
         </p>
         <main>
             <section>
@@ -87,31 +88,31 @@
             <aside id="moje-wymarzone-auta">
                 <div class="containerTable">
                     <table class="table">
-                        <caption class="caption">Moje wymarzone auta</caption>
+                        <caption class="table__caption">Moje wymarzone auta</caption>
                         <tr>
-                            <th class="tableCell" scope="col">Marka</th>
-                            <th class="tableCell" scope="col">Model</th>
-                            <th class="tableCell" scope="col">Rok produkcji</th>
+                            <th class="table__cell" scope="col">Marka</th>
+                            <th class="table__cell" scope="col">Model</th>
+                            <th class="table__cell" scope="col">Rok produkcji</th>
                         </tr>
                         <tr>
-                            <th class="tableCell" scope="row" rowspan="2">Mazda</th>
-                            <td class="tableCell">RX-7</td>
-                            <td class="tableCell">1999</td>
+                            <th class="table__cell" scope="row" rowspan="2">Mazda</th>
+                            <td class="table__cell">RX-7</td>
+                            <td class="table__cell">1999</td>
                         </tr>
                         <tr>
 
-                            <td class="tableCell">MX-5</td>
-                            <td class="tableCell">2020</td>
+                            <td class="table__cell">MX-5</td>
+                            <td class="table__cell">2020</td>
                         </tr>
                         <tr>
-                            <th class="tableCell" scope="row">Honda</th>
-                            <td class="tableCell">NSX</td>
-                            <td class="tableCell">1992</td>
+                            <th class="table__cell" scope="row">Honda</th>
+                            <td class="table__cell">NSX</td>
+                            <td class="table__cell">1992</td>
                         </tr>
                         <tr>
-                            <th class="tableCell" scope="row">Lexus</th>
-                            <td class="tableCell">LC500</td>
-                            <td class="tableCell">2020</td>
+                            <th class="table__cell" scope="row">Lexus</th>
+                            <td class="table__cell">LC500</td>
+                            <td class="table__cell">2020</td>
                         </tr>
                     </table>
                 </div>

@@ -1,0 +1,24 @@
+.containerTable {
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table__caption {
+    color: rgb(188, 4, 31);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.table__cell {
+    border: 1px solid rgb(188, 4, 31);
+    padding: 10px;
+    text-align: center;
+}
+
+

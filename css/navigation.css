@@ -6,7 +6,7 @@
     list-style-type: none;
 }
 
-.navigation__listItem--link {
+.navigation__link {
     color: rgb(188, 4, 31);
     text-decoration: none;
 }

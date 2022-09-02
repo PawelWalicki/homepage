@@ -1,17 +1,14 @@
 console.log("Siema to ja, a new guy ;)");
 
-let button = document.querySelector(".button");
+let button = document.querySelector(".containter__button");
 let title = document.querySelector(".title");
 
 button.addEventListener("click", () => {
-    if (button.innerText === "inny nagłówek") {
+    if (button.innerText === "Inny nagłówek") {
         title.innerText = "ale przystojniak z tego ziomka na zdjęciu :)";
-        button.innerText = "poprzedni nagłówek";
+        button.innerText = "Poprzedni nagłówek";
     } else {
         title.innerText = "Paweł Walicki"
-        button.innerText = "inny nagłówek"
+        button.innerText = "Inny nagłówek"
     }
 });
-
-console.log(button); //to służy tylko do sprawdzenia czy udało się poprawnie dodać guzik
-
