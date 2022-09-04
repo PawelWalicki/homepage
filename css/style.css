@@ -8,19 +8,20 @@ html {
     box-sizing: inherit;
 }
 
-.body { 
+.body {
     background-color: rgb(214, 214, 214);
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
 }
 
-.container{
+.container {
     padding: 20px;
     margin: 0 auto;
     max-width: 1000px;
-    
+
 }
-.container__image{
+
+.container__image {
     display: block;
     border-radius: 15px;
     margin-top: 35px;
@@ -36,12 +37,12 @@ html {
     margin: 10px;
 }
 
-.containter__button{
-    background-color: rgb(214,214,214);
+.containter__button {
+    background-color: rgb(214, 214, 214);
     border-radius: 5px;
 }
-.containter__button:active{
-    background-color: rgb(190,190,190);
-   
-}
 
+.containter__button:active {
+    background-color: rgb(190, 190, 190);
+
+}
