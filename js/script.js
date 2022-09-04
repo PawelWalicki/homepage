@@ -4,7 +4,7 @@
     }
 
     const toggleTitle = () => {
-
+        const button = document.querySelector(".js-container__button");
         const title = document.querySelector(".js-container__title");
 
         if (button.innerText === "Inny nagłówek") {
@@ -14,14 +14,8 @@
             title.innerText = "Paweł Walicki"
             button.innerText = "Inny nagłówek"
         }
-    };
-
-    const init = () => {
-
-        const button = document.querySelector(".js-container__button");
         button.addEventListener("click", toggleTitle);
+    }    
 
-        welcome();
-    }
-    init();
+    welcome();
 }
