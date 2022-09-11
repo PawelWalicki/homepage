@@ -37,12 +37,12 @@ html {
     margin: 10px;
 }
 
-.containter__button {
+.container__button {
     background-color: rgb(214, 214, 214);
     border-radius: 5px;
 }
 
-.containter__button:active {
+.container__button:active {
     background-color: rgb(190, 190, 190);
 
 }
